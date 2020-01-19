@@ -7,4 +7,3 @@ class DFS:
         print(str(src) + " ", end=" ")
         for neighbour in graph[src] - visited:
             self.dfs(graph, neighbour, visited)
-        return visited
